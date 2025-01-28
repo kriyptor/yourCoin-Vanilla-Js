@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="CSS/dashboard.css">
+</head>
+<body>
+    <header>
+        <div id="brand">
+            YourCoins
+        </div>
+        <div id="logOut">
+            <button id="logOutBtn">Logout</button>
+        </div>
+    </header>
+
+    <div id="formBlock">
+        <form id="coinForm">
+            <label for="coinName">Coin Name:</label>
+            <input type="text" id="coinName" placeholder="Bitcoin">
+
+            <label for="coinUnit">Coin Units:</label>
+            <input type="number" id="coinUnit" placeholder="1">
+
+            <label for="investedAmount">Invested Amount:</label>
+            <input type="number" id="investedAmount" placeholder="100">
+
+            <button id="submitCoinBtn" type="submit">Add</button>
+        </form>
+    </div>
+    <div id="coinList">
+        <!-- <div class="Coin-Card" id="123456">
+            <img src="https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400" alt="coin-images">
+            <h3 class="coin-Card-Name">Cardano</h3>
+            <p class="coin-Card-Unit">Total Units: <span class="coin-card-data span-coin-unit">100</span></p>
+            <p class="coin-Card-Invst">Total Investment: <span class="coin-card-data span-coin-investment">100000</span></p>
+            <p class="coin-Card-Curr-Pr">Current Coin Price: <span class="coin-card-data">Rs.200</span></p>
+            <p class="coin-Card-Your-Pr">Your current Coin Price: <span class="coin-card-data">Rs.200,000</span></p>
+            <p class="coin-Card-Profit">Profit: Rs.100,000 || 100%</p>
+            <div class="coin-card-btns">
+                <button class="coin-card-edit-btn">Edit</button>
+                <button class="coin-card-del-btn">Delete</button>
+            </div>
+        </div> -->
+    </div>
+    <script src="Scripts/dashboard.js" type="module"></script>
+</body>
+</html>
